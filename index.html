@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project X-Men</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="src/image/logo.svg" alt="Logo x-men">
+    </header>
+    <main class="characters-selection">
+      <section class="characters">
+        <h1 class="title">Select a character</h1>
+        <ul class="characters-list">
+          <li class="character selected" id="cyclops" data-name="Cyclops" data-description="Emits powerful optic blasts from his eyes, controlled by a special ruby-quartz visor or glasses to focus and control the beams.">
+            <img src="src/image/card-cyclops.jpg" alt="character Cyclops"/>
+          </li>
+
+          <li class="character" id="jean-grey" data-name="Jean Grey" data-description="Telepathy and telekinesis, allowing her to read minds, move objects with her mind, and create telekinetic force fields. When bonded with the Phoenix Force, her powers amplify to manipulate matter and energy at a molecular level.">
+
+            <img src="src/image/card-jean-grey.jpg" alt="character Jean Grey" />
+          </li>
+          <li class="character" id="shadowcat" data-name="Shadowcat" data-description="Intangibility (phasing), allowing her to pass through solid objects and disrupt electronic devices. She can extend this ability to others and objects she touches.">
+            <img
+              src="src/image/card-shadowcat.jpg" alt="character Shadowcat"
+            />
+          </li>
+
+          <li class="character" id="storm" data-name="Storm" data-description="Weather manipulation, controlling all aspects of weather such as rain, wind, lightning, and snow. She can fly by riding wind currents and has a psychic bond with the Earth's biosphere.">
+            <img src="src/image/card-storm.jpg" alt="character Storm" />
+          </li>
+
+          <li class="character" id="rogue" data-name="Rogue" data-description="Power absorption through touch, temporarily gaining the abilities and memories of others. Permanently absorbed super strength and invulnerability from Ms. Marvel.">
+            <img src="src/image/card-rogue.jpg" alt="character Rogue" />
+          </li>
+
+          <li class="character" id="wolverine" data-name="Wolverine" data-description="Regenerative healing factor, enhanced senses, superhuman strength, and agility. His skeleton, including retractable claws, is coated with unbreakable adamantium.">
+            <img src="src/image/card-wolverine.jpg" alt="character Wolverine" />
+          </li>
+
+          <li class="character" id="nightcrawler" data-name="Nightcrawler" data-description="Teleportation with a distinctive sound and smell of brimstone, enhanced agility, ability to cling to surfaces, and blend into shadows.">
+            <img
+              src="src/image/card-nightcrawler.jpg" alt="character Nightcrawler"
+                
+            />
+          </li>
+
+          <li class="character" id="magneto" data-name="Magneto" data-description="Manipulation of magnetic fields, allowing him to control metal objects, generate force fields, and fly. He can also project and control electromagnetic energy and cause geological phenomena like earthquakes.">
+            <img src="src/image/card-magneto.jpg" alt="character Magneto" />
+          </li>
+        </ul>
+      </section>
+      <section class="character-selected">
+        <img
+          class="big-character"
+          src="src/image/card-cyclops.png"
+          alt="character selected"
+        />
+
+        <div class="character-information">
+          <h2 class="character-name" id="character-name">Cyclops</h2>
+          <p class="character-description" id="character-description">
+            Emits powerful optic blasts from his eyes, controlled by a special ruby-quartz visor or glasses to focus and control the beams.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
